@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+</head>
+<body>
+   <canvas id="myCanvas" width="500" height="500"></canvas>
+</body>
+<script type="text/javascript">
+  var canvas = $('#myCanvas')[0];
+            var ctx = canvas.getContext('2d');
+            
+            ctx.fillRect(10,50,100,200);
+			   $("#myCanvas").click(function()
+			   {
+			   alert("hi")
+			   });
+       
+</script>
+</html>
